@@ -19,7 +19,6 @@ import org.iq80.leveldb.impl.Iq80DBFactory;
 
 public class LevelDBUtil {
 
-    //	private static final String PATH = "F:\\workspacech\\TASAD\\TASADserver\\data\\level.db";
     private static final String PATH = "./data/level.db";
     private static final File FILE = new File(PATH);
     private static final Charset CHARSET = StandardCharsets.UTF_8;
