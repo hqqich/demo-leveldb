@@ -27,7 +27,7 @@ public class App {
 		System.out.println(LocalDateTime.now().format(dateTimeFormatter));
 
 		// 写 1_000_000 条数据
-		for (int i = 0; i < 10000; i++) {
+		for (int i = 0; i < 1000; i++) {
 
 			HashMap<String, Object> map = new HashMap<String, Object>();
 			map.put("age", i);
@@ -41,7 +41,7 @@ public class App {
 
 
 
-		Optional<HashMap> test = levelDBUtil.readObject("test:12345", HashMap.class);
+		Optional<HashMap> test = levelDBUtil.readObject("key:12", HashMap.class);
 
 		HashMap hashMap = test.get();
 
