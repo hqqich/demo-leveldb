@@ -22,6 +22,7 @@
   <modules>
     <module>test</module>
     <module>leveldb-util</module>
+    <module>rocksdb-util</module>
   </modules>
 
   <properties>
